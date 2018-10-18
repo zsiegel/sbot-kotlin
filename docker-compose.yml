@@ -1,0 +1,8 @@
+version: '3.3'
+services:
+  ssb-client1:
+    build:
+      context: .
+      dockerfile: Dockerfile.ssb
+    ports:
+      - "8008:8008/udp"
